@@ -6,7 +6,7 @@ Social is a social media plateform UI.
 
 Live Project - https://ghasara.github.io/social/
 
-This project is developed in only version.
+This project is developed in only Mobile version.
 
 ### Prerequisites
 
