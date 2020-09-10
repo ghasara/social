@@ -27,5 +27,6 @@ body {
 }
 
 .main-screen {
+  margin-bottom: 25%;
   padding: 0px var(--horizontal-space);
 }
