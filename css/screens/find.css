@@ -21,6 +21,14 @@
   margin-bottom:8%;
 }
 
+@media screen and (max-width: 645px) {
+.post{
+  margin-bottom: 25%;
+  border-top: var(--main-border);
+  padding-top:5%;
+}
+}
+
 .open-chat__header {
   display: flex;
   justify-content: space-between;
