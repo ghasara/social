@@ -15,3 +15,4 @@ What things you need to install this app
 ```
 Nothing
 ```
+Just download and run through your lastest browser
