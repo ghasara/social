@@ -9,8 +9,17 @@
     align-items: center;
     font-size: 132px;
     animation: hideSplashScreen 0.8s ease-in-out forwards;
-    animation-delay: 100s;
+    animation-delay: 5s;
 }
+@keyframes hideSplashScreen {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      visibility: hidden;
+    }
+}  
 .container{
     height: 340px;
     width: 340px;
