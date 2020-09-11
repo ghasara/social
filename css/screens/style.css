@@ -1,14 +1,14 @@
 #splash-screen {
     background-color: white;
     position: absolute;
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 132px;
-    animation: hideSplashScreen 0.3s ease-in-out forwards;
+    animation: hideSplashScreen 0.8s ease-in-out forwards;
     animation-delay: 5s;
 }
 .container{
