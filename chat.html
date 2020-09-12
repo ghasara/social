@@ -50,12 +50,6 @@
         </div>
       </div>
 
-      <ul class="photo__comments">
-                        
-      </ul>
-
-      
-
     </main>
 
     <div class="reply">
@@ -63,9 +57,9 @@
         <i class="far fa-plus-square fa-lg"></i>
       </div>
       <div class="reply__column">
-        <input type="text" name="myinput" placeholder="Write a message..." />
+        <input type="text" id="myInput" name="myinput" placeholder="Write a message..." />
         <i class="far fa-smile-wink fa-lg"></i>
-        <button>
+        <button id="send"> 
           <i class="fas fa-arrow-up"></i>
         </button>
       </div>
@@ -74,31 +68,14 @@
     <div id="no-mobile">
       <span>Your screen is too big 😭</span>
     </div>
-    <script>
-     $addComment.keydown(function(event){
-        // Detect if the key is enter
-        if(event.keyCode == 13){
-            // Save the textarea's value
-            var newComment = event.target.value;
-            // Select the comment list above textarea
-            var commentList = $(this).parent().parent().children('.photo__comments');
-            // Empty the value of textarea and show placehodler again
-            $(this).val('').blur();
-            // Append a <li> to photo__comments.
-            commentList.append("<div class='message-row message-row--own'>\
-        <div class='message-row__content'>\
-          <div class='message__info'>\
-            <span class='message__bubble'>" + newcomment + "</span>\
-            <span class='message__time'>21:27</span>\
-          </div>\
-        </div>\
-      </div>");
-        }
-    });
-    </script>
+
+    <script src="js/app.js"></script>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
     ></script>
   </body>
 </html>
+
+
+
