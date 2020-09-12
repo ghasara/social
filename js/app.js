@@ -2,7 +2,6 @@ var input = $('#myInput');
 var sendButton = $('#send');
 input.on("keyup", function(event){
     if(event.keyCode == 13){
-        event.preventDefault();
         sendMessage();
     }
 });
@@ -11,11 +10,11 @@ sendButton.on("click", sendMessage);
 function sendMessage() {
         var newComment = input.val();
         var commentList = $('.main-chat')[0];
-        input.val('');
         var ownComment = $($('.message-row--own')[0]).clone();
         ownComment.find('.message__bubble').text(newComment);
         ownComment.find('.message__time').text(Date().slice(16,21));
         ownComment.appendTo(commentList);
+        input.val('').focus();
 }
 
 //   var input = $('#myInput');
