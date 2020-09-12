@@ -2,6 +2,7 @@ var input = $('#myInput');
 var sendButton = $('#send');
 input.on("keyup", function(event){
     if(event.keyCode == 13){
+        event.preventDefault();
         sendMessage();
     }
 });
