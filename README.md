@@ -4,7 +4,7 @@
 
 SocialBird is a social media plateform UI.
 
-Live Project - https://ghasara.github.io/socialbird/
+Live Project - https://socialbird.co.in/
 
 This project is developed in only Mobile version.
 
